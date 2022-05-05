@@ -1,24 +1,22 @@
-# README
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 👋🏻 airbnb_dog_BDD
 
-Things you may want to cover:
+### Bienvenue dans les BDD du Airbnb dog !
 
-* Ruby version
+👀 Visualisation de l'ensemble des BDD :
 
-* System dependencies
+- 🐶 Table "dog"
+- 🦮 Table "dog_sitter"
+- 🚶🏻‍♂️ Table "stroll"
 
-* Configuration
+---
 
-* Database creation
+### Comment visualiser les BDD ?
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- cd airbnb_dog
+- Bundle install
+- db/migrate/development.sqlite3
+- _right clic_
+- Open Database
+- choisis la BDD que tu veux visualiser dans SQLITE EXPLORER

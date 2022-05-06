@@ -37,6 +37,7 @@ end
 15.times do |n|
    Stroll.create(
       dog_sitter: DogSitter.all.sample,
+      dog: Dog.all.sample,
       name: "promenade#{n}"
    )
 end
